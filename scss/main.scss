@@ -1,0 +1,9 @@
+//Foundation
+@import 'foundation/settings/_settings.scss';
+@import 'foundation/foundation';
+
+@include foundation-everything;
+
+//Custom styles
+// @import '../custom/custom';
+

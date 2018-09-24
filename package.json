@@ -1,0 +1,15 @@
+{
+  "name": "foundation_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "AnnaCanCode",
+  "license": "ISC",
+  "dependencies": {
+    "foundation-sites": "^6.5.0-rc.3",
+    "node-sass": "^4.9.3"
+  }
+}
