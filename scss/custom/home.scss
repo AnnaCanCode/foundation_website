@@ -1,0 +1,61 @@
+/*Header*/
+.acc-top {
+  background: $acc-dark-primary-color;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: $acc-top-menu-h;
+  line-height: $acc-top-menu-h;
+  @include acc-std-shadow;
+  a {
+    color: $acc-white;
+  }
+}
+
+.top-bar {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: $acc-top-menu-h;
+  line-height: $acc-top-menu-h;
+  .title-bar {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.acc-logo {
+  span {
+    height: $acc-top-menu-h;
+    line-height: $acc-top-menu-h;
+    i {
+      font-size: 40px;
+      float: left;
+      @include breakpoint(small only) {
+        position: absolute;
+        left: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+/*Menu - desktop*/
+.acc-desktop-menu {  
+  .submenu {
+    @include acc-std-shadow;
+    a {      
+      color: $acc-primary-text-color;      
+    }
+  }
+}
+
+/*Menu mobilne*/
+#mobile-dropdown {
+    @include acc-std-shadow;
+    background-color: $acc-white;
+    a {
+        color: $acc-primary-text-color;
+    }
+}
