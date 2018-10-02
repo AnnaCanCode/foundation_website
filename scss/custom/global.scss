@@ -16,3 +16,37 @@
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   }
 }
+
+/*Buttons*/
+.button {
+  text-transform: uppercase;
+  @include acc-std-shadow;
+  &:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+/*Footer - temporary*/
+.acc-footer {
+  background-color: $acc-primary-color;
+}
+
+/*Forms*/
+.acc-form {
+  input, textarea {
+    color: $acc-white;
+    border-bottom: 1px solid $acc-divider-color;
+    &:active, &:focus {
+      border-bottom: 1px solid $acc-accent-color;
+    }
+  }
+  ::-moz-placeholder {
+    color: $acc-70p-white;
+  }
+  ::-webkit-input-placeholder {
+    color: $acc-70p-white;
+  }
+  :-ms-input-placeholder {
+    color: $acc-70p-white;
+  }
+}
