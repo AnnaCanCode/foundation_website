@@ -4840,3 +4840,63 @@ html.is-reveal-open {
   background-color: #ffffff; }
   #mobile-dropdown a {
     color: #000000; }
+
+/*Separator*/
+.acc-top-separator {
+  display: block;
+  height: 100px; }
+
+/*Slider*/
+.acc-slider {
+  background: url("../img/bg_1.jpg") no-repeat center center;
+  background-size: cover; }
+
+.orbit .orbit-slide {
+  color: #ffffff;
+  padding: 9.5rem 0; }
+  @media print, screen and (min-width: 64em) {
+    .orbit .orbit-slide {
+      padding: 16.25rem 0; } }
+  .orbit .orbit-slide p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.25rem; }
+    @media print, screen and (min-width: 64em) {
+      .orbit .orbit-slide p {
+        font-size: 2rem; } }
+  .orbit .orbit-slide h2 {
+    font-size: 3.25rem;
+    text-transform: uppercase; }
+    @media print, screen and (min-width: 64em) {
+      .orbit .orbit-slide h2 {
+        font-size: 7rem;
+        line-height: 8rem;
+        letter-spacing: -5px; } }
+  .orbit .orbit-slide a {
+    margin-top: 15px; }
+
+.orbit .orbit-bullets {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); }
+  .orbit .orbit-bullets .is-active {
+    background-color: #ff5722; }
+  .orbit .orbit-bullets button:hover {
+    background-color: #cacaca; }
+
+/*One*/
+.acc-one {
+  padding: 70px 0 80px; }
+  .acc-one .acc-section-header p {
+    color: #727272; }
+
+.acc-highlight {
+  margin-bottom: 25px; }
+  .acc-highlight p {
+    color: rgba(0, 0, 0, 0.87); }
+  .acc-highlight h4 {
+    font-size: 1.56rem; }
+  .acc-highlight .round-icon {
+    font-size: 3.56rem;
+    margin: 1.7rem 0 1rem;
+    color: #3f51b5; }
