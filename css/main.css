@@ -4773,10 +4773,6 @@ html.is-reveal-open {
   .button:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
-/*Footer - temporary*/
-.acc-footer {
-  background-color: #3f51b5; }
-
 /*Forms*/
 .acc-form input, .acc-form textarea {
   color: #ffffff;
@@ -4884,7 +4880,7 @@ html.is-reveal-open {
   .orbit .orbit-bullets button:hover {
     background-color: #cacaca; }
 
-/*One*/
+/*Section One*/
 .acc-one {
   padding: 70px 0 80px; }
   .acc-one .acc-section-header p {
@@ -4900,3 +4896,97 @@ html.is-reveal-open {
     font-size: 3.56rem;
     margin: 1.7rem 0 1rem;
     color: #3f51b5; }
+
+/*Section Two*/
+.acc-two {
+  padding: 100px 0 120px;
+  background: url(../img/bg_port.jpg) no-repeat center center;
+  background-size: cover; }
+  .acc-two .acc-section-header {
+    color: #ffffff; }
+    .acc-two .acc-section-header p {
+      color: rgba(255, 255, 255, 0.7); }
+
+.acc-two-box {
+  margin-bottom: 40px; }
+  .acc-two-box img {
+    width: 100%; }
+
+.acc-two-title {
+  padding: 20px; }
+  .acc-two-title h4 {
+    margin-bottom: 10px;
+    font-size: 1.25rem; }
+  .acc-two-title p {
+    font-weight: 400; }
+
+/*Section Three*/
+.acc-three {
+  padding: 70px 0 80px;
+  background-color: #eeeeee; }
+  .acc-three p {
+    color: rgba(0, 0, 0, 0.87); }
+  .acc-three .card {
+    padding: 20px;
+    font-weight: 400; }
+  .acc-three .acc-three-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #ff5722; }
+
+/*Section Four*/
+.acc-four {
+  padding: 80px 0 90px; }
+  .acc-four .acc-section-header p {
+    color: #727272; }
+
+.acc-single-offer {
+  margin-bottom: 40px;
+  font-weight: 400;
+  padding: 20px 20px 30px; }
+  .acc-single-offer ul {
+    margin: 2rem 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid gainsboro; }
+    .acc-single-offer ul li {
+      border-top: 1px solid gainsboro;
+      line-height: 2.4; }
+
+.acc-offer-title {
+  margin-bottom: 0.6rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: block;
+  color: rgba(0, 0, 0, 0.87); }
+
+.acc-offer-desc {
+  font-size: 0.8rem;
+  display: block; }
+
+.acc-offer-price span {
+  font-weight: 700;
+  color: #ff5722; }
+
+.acc-offer-best {
+  color: #303f9f; }
+  .acc-offer-best .acc-offer-title {
+    color: #303f9f; }
+
+/*Footer*/
+.acc-footer {
+  background-color: #3f51b5;
+  padding-top: 40px;
+  color: rgba(255, 255, 255, 0.7); }
+  .acc-footer .cell {
+    padding-bottom: 40px; }
+
+.acc-phone-number {
+  font-weight: 400;
+  font-size: 1.4rem; }
+
+.acc-copyright {
+  background-color: #303f9f; }
+  .acc-copyright p {
+    line-height: 5;
+    margin-bottom: 0; }
