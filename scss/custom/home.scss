@@ -113,7 +113,7 @@
   }
 }
 
-/*One*/
+/*Section One*/
 .acc-one {
   padding: 70px 0 80px;
   .acc-section-header {
@@ -139,4 +139,127 @@
   }
 }
 
+/*Section Two*/
+.acc-two {
+  padding: 100px 0 120px;
+  background: url(../img/bg_port.jpg) no-repeat center center;
+  background-size: cover;
+  .acc-section-header {
+    color: $acc-white;
+    p {
+      color: $acc-70p-white;
+    }
+  }
+}
 
+.acc-two-box {
+  margin-bottom: 40px;
+  img {
+    width: 100%;
+  }
+}
+
+.acc-two-title {
+  padding: 20px;
+  h4 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+  }
+  p {
+    font-weight: 400;
+  }
+}
+
+/*Section Three*/
+.acc-three {
+  padding: 70px 0 80px;
+  background-color: lighten($acc-divider-color,22%);
+  p {
+      color: $acc-87p-black;
+  }
+  .card {
+    padding: 20px;
+    font-weight: 400;
+  }
+  .acc-three-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: $acc-accent-color;
+  }
+}
+
+/*Section Four*/
+.acc-four {
+  padding: 80px 0 90px;
+  .acc-section-header {
+    p {
+      color: $acc-secondary-text-color;
+    }
+  }
+}
+
+.acc-single-offer {
+  margin-bottom: 40px;
+  font-weight: 400;
+  padding: 20px 20px 30px;
+  ul {
+    margin: 2rem 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid lighten($acc-divider-color,15%);
+    li {
+      border-top: 1px solid lighten($acc-divider-color, 15%);
+      line-height: 2.4;
+    }
+  }
+}
+
+.acc-offer-title {
+  margin-bottom: 0.6rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: block;
+  color: $acc-87p-black;
+}
+
+.acc-offer-desc {
+  font-size: 0.8rem;
+  display: block;
+}
+
+.acc-offer-price {
+  span {
+    font-weight: 700;
+    color: $acc-accent-color;
+  }
+}
+
+.acc-offer-best {
+  color:$acc-dark-primary-color;
+  .acc-offer-title {
+    color:$acc-dark-primary-color;
+  }
+}
+
+/*Footer*/
+.acc-footer {
+  background-color: $acc-primary-color;
+  padding-top: 40px;
+  color: $acc-70p-white;
+  .cell {
+    padding-bottom: 40px;
+  }
+}
+
+.acc-phone-number {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.acc-copyright {
+  background-color: $acc-dark-primary-color;
+  p {
+    line-height: 5;
+    margin-bottom: 0;
+  }
+}
