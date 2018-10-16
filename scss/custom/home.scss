@@ -68,7 +68,7 @@
 
 /*Slider*/
 .acc-slider {
-  background: url('../img/bg_1.jpg') no-repeat center center;
+  background: url('../img/bg.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -79,25 +79,20 @@
     @include breakpoint (large) {
       padding: 16.25rem 0;
     }
-    p {
+    blockquote cite {
       color: $acc-70p-white;
-      font-size: 1.25rem;
+      font-size: 1rem;
       @include breakpoint (large){
         font-size: 2rem;
       }
     }
-    h2 {
-      font-size: 3.25rem;
-      text-transform: uppercase;
+    blockquote {
+      font-size: 1.25rem;      
       @include breakpoint (large) {
-        font-size: 7rem;
-        line-height: 8rem;
-        letter-spacing: -5px;
+        font-size: 3rem;
+        line-height: 3.5rem;        
       }
-    }
-    a {
-      margin-top: 15px;
-    }
+    }    
   }
   .orbit-bullets {
     position: absolute;

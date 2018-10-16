@@ -604,8 +604,8 @@ dl {
 
 blockquote {
   margin: 0 0 1rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #cacaca; }
+  padding: 0;
+  border-left: none; }
   blockquote, blockquote p {
     line-height: 1.6;
     color: #727272; }
@@ -4844,7 +4844,7 @@ html.is-reveal-open {
 
 /*Slider*/
 .acc-slider {
-  background: url("../img/bg_1.jpg") no-repeat center center;
+  background: url("../img/bg.jpg") no-repeat center center;
   background-size: cover; }
 
 .orbit .orbit-slide {
@@ -4853,22 +4853,18 @@ html.is-reveal-open {
   @media print, screen and (min-width: 64em) {
     .orbit .orbit-slide {
       padding: 16.25rem 0; } }
-  .orbit .orbit-slide p {
+  .orbit .orbit-slide blockquote cite {
     color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem; }
+    @media print, screen and (min-width: 64em) {
+      .orbit .orbit-slide blockquote cite {
+        font-size: 2rem; } }
+  .orbit .orbit-slide blockquote {
     font-size: 1.25rem; }
     @media print, screen and (min-width: 64em) {
-      .orbit .orbit-slide p {
-        font-size: 2rem; } }
-  .orbit .orbit-slide h2 {
-    font-size: 3.25rem;
-    text-transform: uppercase; }
-    @media print, screen and (min-width: 64em) {
-      .orbit .orbit-slide h2 {
-        font-size: 7rem;
-        line-height: 8rem;
-        letter-spacing: -5px; } }
-  .orbit .orbit-slide a {
-    margin-top: 15px; }
+      .orbit .orbit-slide blockquote {
+        font-size: 3rem;
+        line-height: 3.5rem; } }
 
 .orbit .orbit-bullets {
   position: absolute;
