@@ -9,7 +9,7 @@
 /*Cards*/
 .card {
   border-radius: 2px;
-  background: $acc-white;
+  // background: $acc-white;
   @include acc-std-shadow;
   @include acc-transition;
   &:hover {
