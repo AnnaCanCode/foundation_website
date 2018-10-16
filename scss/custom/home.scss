@@ -137,7 +137,7 @@
 /*Section Two*/
 .acc-two {
   padding: 100px 0 120px;
-  background: url(../img/bg_port.jpg) no-repeat center center;
+  background: $acc-accent-color;
   background-size: cover;
   .acc-section-header {
     color: $acc-white;

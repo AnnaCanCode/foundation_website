@@ -2957,7 +2957,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   margin-bottom: 1rem;
   border: none;
   border-radius: 0;
-  background: #95a5a6;
+  background: #bdc3c7;
   box-shadow: none;
   overflow: hidden;
   color: #000000; }
@@ -4895,7 +4895,7 @@ html.is-reveal-open {
 /*Section Two*/
 .acc-two {
   padding: 100px 0 120px;
-  background: url(../img/bg_port.jpg) no-repeat center center;
+  background: #2980b9;
   background-size: cover; }
   .acc-two .acc-section-header {
     color: #ffffff; }
