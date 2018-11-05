@@ -21,7 +21,8 @@
     background-color: transparent;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
 
@@ -35,7 +36,8 @@
       @include breakpoint(small only) {
         position: absolute;
         left: 50%;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
       }
     }
   }
@@ -98,7 +100,8 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     .is-active {
       background-color: $acc-accent-color;
     }
